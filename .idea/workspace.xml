@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55d54bcd-f250-4ea3-a568-d3eca99c2d03" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,7 +23,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-8">
+                <state relative-caret-position="30">
                   <caret line="2" selection-start-line="2" selection-end-line="2" />
                 </state>
               </provider>
@@ -34,7 +33,7 @@
             <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="45">
-                  <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+                  <caret line="3" selection-start-line="3" selection-end-line="3" />
                 </state>
               </provider>
             </entry>
@@ -103,10 +102,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="-1740" />
-    <option name="y" value="210" />
-    <option name="width" value="1080" />
-    <option name="height" value="676" />
+    <option name="x" value="-1920" />
+    <option name="y" value="-82" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -114,6 +113,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,7 +125,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,12 +173,13 @@
       <workItem from="1568280431268" duration="712000" />
       <workItem from="1568363032627" duration="3023000" />
       <workItem from="1568368960024" duration="4118000" />
-      <workItem from="1568374119135" duration="8436000" />
+      <workItem from="1568374119135" duration="9022000" />
+      <workItem from="1568704800108" duration="531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16289000" />
+    <option name="totallyTimeSpent" value="17406000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-82" width="1920" height="1080" extended-state="6" />
@@ -209,9 +209,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/bg-showcase-1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg-showcase-1.jpg" />
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -219,13 +217,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_testimonials.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_testimonials.scss" />
     <entry file="file://$PROJECT_DIR$/scss/landing-page.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -268,17 +260,53 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-reboot.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5032" selection-start-column="5032" selection-end-column="5032" />
         </state>
       </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_masthead.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/landing-page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -293,42 +321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36510">
           <caret line="2434" column="14" selection-start-line="2434" selection-start-column="14" selection-end-line="2434" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/landing-page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_masthead.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
