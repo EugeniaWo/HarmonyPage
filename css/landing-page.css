@@ -17,6 +17,15 @@ h6 {
   font-family: 'Poppins', 'Helvetica Neue', sans-serif;
 }
 
+.ew{
+  background: #0b132b;
+}
+
+.eww{
+  float: right;
+  margin: auto;
+}
+
 header.masthead {
   position: relative;
   background-color: #343a40;
@@ -36,8 +45,6 @@ header.masthead .overlay {
   opacity: 0.3;
 }
 
-
-
 .img-fluid{
   margin-bottom: 5em;
   height: auto;
@@ -45,9 +52,31 @@ header.masthead .overlay {
 }
 
 .btn-primary {
-  background-color: #5bc0be;
-  border: #5bc0be;
+  background-color: transparent;
+  text-transform: uppercase;
+  border: 3px solid #5bc0be !important;
+  border-radius: 1em;
+  color: white;
 }
+
+.btn-primary:hover{
+  background-color: #5bc0be !important;
+}
+
+.btn-two {
+  background-color: transparent;
+  text-transform: uppercase;
+  border: 3px solid #5bc0be !important;
+  border-radius: 1em;
+  color: white;
+}
+
+.btn-two:hover{
+  background-color: #5bc0be !important;
+  color: white;
+}
+
+
 
 a {
   color: #5bc0be;
@@ -85,8 +114,8 @@ a {
   font-size: 5rem;
 }
 
-
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+
