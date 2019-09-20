@@ -17,13 +17,16 @@ h6 {
   font-family: 'Poppins', 'Helvetica Neue', sans-serif;
 }
 
-.ew{
-  background: #0b132b;
+.header--container  {
+  position: relative;
 }
 
-.eww{
-  float: right;
-  margin: auto;
+.container{
+  display: grid;
+}
+
+.updates--container{
+  align-self: flex-end;
 }
 
 header.masthead {
@@ -60,23 +63,26 @@ header.masthead .overlay {
 }
 
 .btn-primary:hover{
-  background-color: #5bc0be !important;
+  background-color: #5bc0be ;
 }
 
 .btn-two {
+  position: absolute !important;
+  top: 1em;
+  right: 1em;
   background-color: transparent;
   text-transform: uppercase;
-  border: 3px solid #5bc0be !important;
+  border: 3px solid #5bc0be;
   border-radius: 1em;
   color: white;
+  padding: 5px 10px;
+  z-index: 50;
 }
 
 .btn-two:hover{
-  background-color: #5bc0be !important;
+  background-color: #5bc0be;
   color: white;
 }
-
-
 
 a {
   color: #5bc0be;
