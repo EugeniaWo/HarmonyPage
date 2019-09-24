@@ -18,7 +18,7 @@
 
   <!-- Masthead -->
   <div class="header--container">
-    <button type="submit" class="btn-two">log in</button>
+    <button type="submit" class="btn-two" style="display: none">log in</button>
     <header class="masthead text-white text-center">
       <div class="overlay">
       </div>
@@ -27,31 +27,38 @@
           <div class="col-xl-7 mx-auto">
             <img src="img/harmony-logo.png" alt="Harmony logo" class="img-fluid">
             <div class="text-left">
-              <h2 class="mb-5">A SAAS Solution for SAAS Backoffice Needs.</h2>
-              <p> Streamline the Content & Client Management of your Databases. Harmony enables your team to set up visualizations, automate changes and provides custom DB access roles within only a few hours.</p>
+              <h2 class="mb-5">Straightforward Back-Office Management</h2>
+              <p> Harmony is a platform that lets you set up your own back office management solution simply and fast. Set up a controlled and secure user interface to your endpoints and allow your sales, marketing, customer relation and admin teams to connect to your product and data without a programmer to streamline their tasks.</p>
+              <p>Visualise data, define different levels of access for your co-workers, streamline regular Database requests such as changing client data within only a few hours.</p>
             </div>
           </div>
           <div class="col-xl-5 mx-auto updates--container">
             <div class="text-left">
-              <h2 class="mb-5">Get Updates on the Trial <br>& Release</h2>
+              <h2 class="mb-5">Get Updates on the Trial & Release</h2>
               <p> Sign up with your email to get news about the release of Harmony CB and 75% off*</p>
               <p><small> *This offer applies only for signing up for the version released on 01. Nov 19</small></p>
-              <div class="col-xl-12 mx-auto">
-                <form>
+              <div class="col-xl-12 mx-auto email--wrapper">
+                <form id="form">
                   <div class="form-row">
                     <div class="col col-md-8 mb-2 mb-md-0">
-                      <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+                      <input type="email" id="email--container" class="form-control form-control-lg" placeholder="Enter your email...">
                     </div>
-                    <div class="col col-md-4">
-                      <button type="submit" class="btn btn-block btn-lg btn-primary">Join</button>
-                    </div>
+                                <div class="col col-md-4">
+                                    <button type="submit" class="btn btn-block btn-lg btn-primary" id="join-btn">Join</button>
+                                </div>
                   </div>
                 </form>
               </div>
+                              <div class="alert alert-success" id="confirmation" role="alert" style="margin-top: 20px; display: none;">
+                                <h4>Thank you for your interest!</h4>
+                                <p>You successfully signed for upcoming news on Harmony CB. You will receive more information shortly.</p>
+                              </div>
             </div>
           </div>
         </div>
       </div>
+
+
     </header>
   </div>
 
@@ -65,8 +72,10 @@
             <div class="features-icons-icon d-flex">
               <i class="icon-fire m-auto text-primary"></i>
             </div>
-            <h3>Increase productivity</h3>
-            <p class="lead mb-0">Increase your teams productivity by streamlining and automating repeated Database requests such as Data access/visualization and basic Client related changes.</p>
+            <h3>Streamline</h3>
+            <p class="lead mb-0">Increase your teams productivity by streamlining repeated database requests such as data access, visualization
+              and client plan management related changes.
+            </p>
           </div>
         </div>
 
@@ -76,7 +85,7 @@
               <i class="icon-clock m-auto text-primary"></i>
             </div>
             <h3>Quick Set Up</h3>
-            <p class="lead mb-0">Set up the automation of your DB related processes within hours instead of days of weeks.</p>
+            <p class="lead mb-0">Set up the fundamental function of your backoffice admin solution within hours instead of days or weeks and leave platform maintenance to us.</p>
           </div>
         </div>
 
@@ -86,7 +95,7 @@
               <i class="icon-note m-auto text-primary"></i>
             </div>
             <h3>Custom Role Management</h3>
-            <p class="lead mb-0">The Harmony CB platform lets you decide who in your company can view or change your clients information and implement it efficiently.</p>
+            <p class="lead mb-0">The Harmony CB platform lets you decide who in your company can view or change your product data and client information.</p>
           </div>
         </div>
 
@@ -95,8 +104,8 @@
             <div class="features-icons-icon d-flex">
               <i class="icon-docs m-auto text-primary"></i>
             </div>
-            <h3>Client Plan Management</h3>
-            <p class="lead mb-0">Give your team an easy and natural experience when managing customer information and product data. Provide a quick and reliable service.</p>
+            <h3>Structure</h3>
+            <p class="lead mb-0">Harmony provides the fundament for a simple user interface to make work efficient and fun.</p>
           </div>
         </div>
 
@@ -106,7 +115,7 @@
               <i class="icon-vector m-auto text-primary"></i>
             </div>
             <h3>DB Version Control</h3>
-            <p class="lead mb-0">Manage and (re-)view changes made to your clients database over time while your team can simultaneously work on viewing and updating their information.</p>
+            <p class="lead mb-0">Manage and (re-)view changes made to your clients database over time while your team can simultaneously view and update relevant information.</p>
           </div>
       </div>
     </div>
@@ -122,19 +131,16 @@
         <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
           <ul class="list-inline mb-2">
             <li class="list-inline-item">
-              <a href="#">About</a>
+              <a href="https://www.inceptit.org/about-inceptit/">About</a>
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
-              <a href="#">Contact</a>
+              <a href="https://www.inceptit.org/contact-us/">Contact</a>
+            </li>
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
+              <a href="https://www.inceptit.org/datenschutzerklarung/">Privacy Policy</a>
             </li>
           </ul>
           <p class="text-muted small mb-4 mb-lg-0">&copy; InceptIT 2019. All Rights Reserved.</p>
@@ -142,29 +148,45 @@
         <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
           <ul class="list-inline mb-0">
             <li class="list-inline-item mr-3">
-              <a href="https://www.facebook.com/inceptIT/">
+              <a href="https://www.facebook.com/harmony.contentbase/">
                 <i class="fab fa-facebook fa-2x fa-fw"></i>
               </a>
             </li>
             <li class="list-inline-item mr-3">
-              <a href=“https://twitter.com/_inceptIT">
+              <a href="https://twitter.com/Harmony_CBase">
                 <i class="fab fa-twitter-square fa-2x fa-fw"></i>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.instagram.com/incept_it/">
+              <a href="https://www.instagram.com/harmony.cb/">
                 <i class="fab fa-instagram fa-2x fa-fw"></i>
               </a>
             </li>
           </ul>
         </div>
-      </div>‚
+      </div>
     </div>
   </footer>
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+      $('#form').submit(function(event){
+        if($('#email--container').val() == ''){
+          console.log('email blank');
+          event.preventDefault();
+        } else {
+        console.log("Button clicked");
+        $('#confirmation').show();
+        $('.email--wrapper').hide();
+        event.preventDefault();
+        };
+      });
+  </script>
+
 
 </body>
 

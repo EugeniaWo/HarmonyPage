@@ -63,7 +63,14 @@ header.masthead .overlay {
 }
 
 .btn-primary:hover{
-  background-color: #5bc0be ;
+  background-color: #5bc0be;
+}
+
+.btn-primary:active:focus {
+  box-shadow: none;
+  color: #ffffff;
+  background-color: #5bc0be !important;
+  border: 3px solid #5bc0be !important;
 }
 
 .btn-two {
@@ -124,4 +131,3 @@ footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-
